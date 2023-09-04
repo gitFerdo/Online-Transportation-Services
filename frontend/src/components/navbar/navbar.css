@@ -1,0 +1,32 @@
+.navbar {
+  height: 75px;
+  background-color: #1e26e3;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1850px;
+  margin-right: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Imprima", sans-serif;
+  font-size: 40px;
+  font-weight: 40px;
+  margin-left: 10px;
+}
+
+.navButton {
+  margin-left: 10px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #1e26e3;
+  border-radius: 20px;
+}

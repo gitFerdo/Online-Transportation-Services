@@ -1,0 +1,102 @@
+.tour_card{
+    padding: 15px;
+    margin-top: 0 auto;
+}
+
+.tour_card:hover{
+    transform: scale(1.1);
+}
+
+.tour_img img{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.tour_img{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tour_img span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 10;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.3rem 0.5rem;
+    border-radius: 3px 0 0 0;
+}
+
+.card{
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.card_top span i{
+    color: var(--secondary-color);
+}
+
+.tour_typetitle{
+    color: gray;
+}
+
+.tour_title{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.tour_title a{
+    text-decoration: none;
+    color: var(--heading-color);
+    transition: .3s;
+}
+
+.tour_title a:hover{
+    color: var(--secondary-color);
+}
+
+.tour_passenger, 
+.tour_gear_shift,
+.tour_baggage,
+.tour_door{
+    color: black;
+    font-weight: 350;
+    font-size: 15px;
+}
+
+.tour_passenger i, 
+.tour_gear_shift i,
+.tour_baggage i,
+.tour_door i{
+    font-size: 10px;
+}
+
+.imgIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.imgIcon img{
+    width: 100%;
+}
+
+.card_bottom h5{
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.card_bottom h5 span{
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 0.9rem;
+}

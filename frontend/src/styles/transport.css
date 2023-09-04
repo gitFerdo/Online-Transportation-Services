@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.header_title h2 {
+  text-align: center;
+}
+
+.header_title h5 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+
+.header_title {
+  padding-bottom: 0;
+}
+
+.featured_tour-title {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.pagination span {
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--secondary-color);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.active_page {
+  background: var(--secondary-color);
+  color: #fff !important;
+}

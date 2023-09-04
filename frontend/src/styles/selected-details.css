@@ -1,0 +1,169 @@
+.car_img img{
+    width: 50%;
+    padding: 5px;
+    border-radius: 30px;
+    margin-bottom: 2.5rem;
+}
+
+.tour_info,
+.features,
+.tour_reviews{
+    border-radius: .5rem;
+    border-bottom: 1px solid rgb(229, 231, 235);
+    padding: 2rem;
+}
+
+.tour_info span,
+.features span,
+.tour_reviews span{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    font-style: 1rem;
+    color: var(--text-color);
+}
+
+.tour_info span i,
+.features span i,
+.tour_reviews span i{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+}
+
+.tour_content h2{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.tour_content h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tour_extra-details{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-top: 1rem;
+}
+
+.tour_extra-details img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.iconImg{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2.5rem;
+}
+
+.key_details h5{
+    margin-bottom: 1rem;
+    font-style: 1.3rem;
+}
+
+.key_details p{
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+} 
+
+.item{
+    margin-top: 5px;
+    color: var(--text-color);
+    font-style: 16px;
+    font-weight: 400;
+}
+
+.icon{
+    padding-right: 15px !important;
+}
+
+.rating_group span{
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.tour_reviews h4{
+    margin-bottom: 3rem;
+}
+
+.review_input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.review_input input{
+    width: 100%;
+    padding: 0.5rem 0;
+    border: none;
+}
+
+.review_input input:focus{
+    outline: none;
+}
+
+.sub_btn{
+    background: var(--primary-color);
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.review_item{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review_item h5{
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.review_item p{
+    font-size: .9rem;
+    color: var(--text-color);
+}
+
+.review_item h6{
+    font-size: 1.1rem;
+    color: var(--text-color);
+}
+
+.review_item span i{
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+}
+
+.review_item span{
+    font-weight: 500;
+}
+
+/* .review_item img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+} */
+
+.user_reviews{
+    margin-top: 2.5rem;
+}
