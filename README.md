@@ -1,6 +1,6 @@
 # Online Transportation Services
 
-Transportation services in an online air ticket purchasing system provide convenience for both passengers and drivers. This system includes ride scheduling, rating and review system, and safety features.
+Transportation services in an online vehicle transport-booking system provide convenience for both passengers and drivers. This system includes ride scheduling, rating, and review systems, and safety features.
 
 ### Key Features
 - **Ride Scheduling** Allows passengers to plan rides with drivers using a web application by inputting pickup location, destination, and other details.
